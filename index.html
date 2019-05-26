@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mockup Viewer</title>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+		<link rel="icon" href="favicon.ico" type="image" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container-fluid padZero">
+			<div class="col-md-4 muv-left">
+			<div class="">
+				<label>Select Model</label>
+				<select class="model form-control">
+					<option value="m1">iPhone - Grey</option>
+					<option value="m2">iPhone - Gold</option>
+				</select>
+			</div>
+		<div class="form-group mTop10">
+			<label>Goto Screen</label>
+			<select class="screens form-control"></select>
+		</div>
+		<div class="form-group mTop10">
+			<label>Goto Slide</label>
+			<input class="form-control goto" type="" name="" value="0" />
+			<button class="muv-button-1 btn btn-info btn-block mTop10" type="submit">Goto Slide</button>
+		</div>
+		<div class="bx-pager"></div>
+		<div class="btn-toggle">Thumbnail view - Toggle</div>
+		<div class="mb-properties">
+		</div>
+		</div>
+		<div class="col-md-8 muv-right text-center">
+			<span class="mobile-overlay"><img src="images/m1.png" /></span>
+			<ul class="bxslider">
+			</ul>
+			<div class="controls">
+				<span class="prev"></span>
+				<span class="next"></span>
+			</div>
+		</div>
+	</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+</html>

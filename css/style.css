@@ -1,0 +1,147 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #505D75;
+}
+
+.mTop10 {
+    margin-top: 10px;
+}
+
+.padZero {
+    padding: 0;
+}
+
+.bx-pager {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.bx-pager a img {
+    cursor: pointer;
+    margin: 2px;
+    border: 1px solid #ddd;
+}
+
+.bx-pager a img:hover {
+    border: 1px solid #9a9a9a;
+    transition: 0.25s linear;
+}
+
+.bx-viewport {
+    min-height: 503px;
+}
+
+.bx-wrapper li object {
+    max-width: 286px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.bx-wrapper li svg {
+    cursor: pointer;
+    max-width: 286px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.bx-wrapper {
+    width: 320px;
+    margin: 0 auto;
+    top: 100px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border: none !important;
+    box-shadow: none !important;
+    margin-bottom: 0 !important;
+    background: transparent !important;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    opacity: 0.05;
+}
+
+.bx-wrapper .bx-prev {
+    left: 0;
+    top: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0, 0, 0, 0);
+    height: inherit !important;
+}
+
+.bx-wrapper .bx-next {
+    right: 0;
+    top: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0, 0, 0, 0);
+    height: inherit !important;
+}
+
+.bx-wrapper .bx-controls-direction a:hover {
+    opacity: 0.5;
+}
+
+.bx-pager img {
+    width: 25px;
+}
+
+.mobile-overlay img {
+    width: 320px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.controls span {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.controls .prev {
+    left: 75px;
+}
+
+.controls .next {
+    right: 75px;
+}
+
+.muv-left,
+.muv-right {
+    float: left;
+    padding: 25px;
+}
+
+.muv-left {
+    background: #fafafa;
+    box-shadow: 0px 0px 10px 0px #e6e6e6;
+}
+
+.btn-info {
+    background: #505D75 !important;;
+    border: 1px solid #505D75 !important;
+}
+
+.btn-toggle {
+    cursor: pointer;
+    color: #505D75;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #505D75;
+    margin-bottom: 15px;
+    border-radius: .25rem;
+}
+
+.mb-properties code {
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 5px;
+    line-height: 2em;
+    color: #505D75;
+}
